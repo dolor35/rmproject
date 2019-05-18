@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>RMP | Login</title>
+  <link rel="stylesheet" href="../css/bootstrap.min.css">
+  <link rel="stylesheet" href="../css/custom.css">
+  <link rel="stylesheet" href="../css/overlay.css">
+  <link href='https://fonts.googleapis.com/css?family=Open+Sans:800' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+  <title>Risk Management Project | Студентський проект з ризик-менеджменту</title>
+</head>
+<body>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <nav class="navbar fixed-top navbar-light bg-light">
+    <!-- Логотип -->
+    <a href="../index.html" class="navbar-brand"><img src="../media/img/logo.png" alt="RPM logo" class="img-fluid"></a>
+    <!-- Логин -->
+    <button class="btn btn-dark ml-auto">
+      <i class="fas fa-user"></i>
+    </button>
+    <!-- Кнопка меню -->
+    <button class="navbar-toggler custom-hamburger-button" type="button" onclick="openNav()">
+      <!--<span class="navbar-toggler-icon"></span>-->
+      <i class="fas fa-ellipsis-h"></i>
+    </button>
+    <!-- Меню -->
+    <div id="myNav" class="overlay">
+
+      <!-- Button to close the overlay navigation -->
+      <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+
+      <!-- Overlay content -->
+      <div class="overlay-content">
+        <a href="../index.html" class="text-muted">БЛОГ</a>
+        <a href="#" class="text-primary">РЕЄСТРАЦІЯ</a>
+        <a href="#" class="text-muted">ПРО МЕНЕ</a>
+        <a href="#" class="text-muted">РЕСУРСИ</a>
+      </div>
+
+    </div>
+  </nav>
+  <!-- Контент -->
+  <section class="content">
+    <div class="container">
+      <!-- Открываю div.row -->
+      <div class="row">
+        <!-- Форма для входа на сайт (если аккаунт уже существует) -->
+        <div class="col-sm-12 col-md-6">
+          <h2>Увійти в особистий кабінет</h2>
+          <hr>
+          <form action="#">
+            <div class="form-group">
+              <label for="inputEmail">Електронна пошта</label>
+              <input type="email" class="form-control" id="inputEmail" placeholder="ваша-пошта@приклад.ком">
+            </div> <!-- Закрываю div.form-group -->
+            <div class="form-group">
+              <label for="inputPassword">Пароль</label>
+              <input type="password" class="form-control" id="inputPassword" placeholder="пароль">
+            </div><!-- Закрываю div.form-group -->
+            <button type="button" class="btn btn-primary">
+              Увійти
+            </button>
+          </form>
+        </div> <!-- Закрываю div.col-md-6 -->
+        <!-- Форма регистрации на сайте -->
+        <div class="col-sm-12 col-md-6">
+          <h2>Зареєструватися на сайті</h2>
+          <hr>
+          <form action="#">
+            <div class="form-group">
+              <label for="inputRegEmail">Електронна пошта</label>
+              <input type="email" class="form-control" id="inputRegEmail" placeholder="ваша-пошта@приклад.ком">
+            </div><!-- Закрываю div.form-group -->
+            <div class="form-group">
+              <label for="inputRegPassword">Пароль</label>
+              <input type="password" class="form-control" id="inputRegPassword" placeholder="пароль">
+            </div><!-- Закрываю div.form-group -->
+            <div class="form-group">
+              <label for="inputRegName">Ім'я</label>
+              <input type="text" class="form-control" id="inputRegName" placeholder="Іван">
+            </div><!-- Закрываю div.form-group -->
+            <div class="form-group">
+              <label for="inputRegSurname">Прізвище</label>
+              <input type="text" class="form-control" id="inputRegSurname" placeholder="Морозов">
+            </div><!-- Закрываю div.form-group -->
+            <button type="button" class="btn btn-primary">
+              Зареєструватися
+            </button>
+          </form>
+        </div><!-- Закрываю div.col-md-6 -->
+      </div><!-- закрываю row -->
+    </div><!-- закрываю container -->
+  </section>
+<br>
+<br>
+<br>
+<br>
+  <!-- подвал -->
+  <footer class="container-fluid footer-custom">
+      <div class="container">
+               <div class="row">
+                 <div class="col-md-6 px-4">
+                    <h2>Про проект</h2>
+                    <hr>
+                    <p>Студентський проект з ризик-менеджменту.</p>
+                    <a href="#" class="btn-footer"> Список літератури </a><br>
+                    <a href="#" class="btn-footer"> Інші використані джерела</a>
+                 </div>
+                  <div class="col-md-6 px-4">
+                     <h2>Корисні посилання</h2>
+                     <hr>
+                     <div class="row ">
+                        <div class="col-md-12">
+                           <ul class="nav nav-pills flex-column">
+                              <li class="nav-item"> <a class="nav-link" href="#"> Про проект</a> </li>
+                              <li class="nav-item"> <a class="nav-link" href="#"> Вхід | Реєстрація</a> </li>
+                              <li class="nav-item"> <a class="nav-link" href="#"> Про мене</a> </li>
+                              <li class="nav-item"> <a class="nav-link" href="http://lp.edu.ua/"> Політехніка</a> </li>
+                           </ul>
+                        </div>
+                   </div>
+            </div>
+         </div>
+         <div class="row">
+           <div class="col-sm-12 text-center footer-credits">
+             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet fugit natus mollitia consequuntur sed, atque, vitae cumque dicta quos</p>
+           </div>
+         </div>
+      </div>
+  </footer>
+  <script type="text/javascript" src="../scripts/jquery.min.js"></script>
+  <script type="text/javascript" src="../scripts/bootstrap.min.js"></script>
+  <script type="text/javascript" src="../scripts/overlay.js"></script>
+</body>
+</html>

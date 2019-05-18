@@ -1,0 +1,138 @@
+body {
+        background-color: #ededed;
+      }
+
+a {
+        color: #4067B1 !important;
+    }
+
+.custom-hamburger-button {
+  border: none;
+}
+
+.hero-section {
+  background: linear-gradient(120deg, #251B71 0%, #180D5B 100%);
+  background-image: url(../media/img/index_hero.png);
+  height: 100%;
+  background-size: cover;
+  padding-top: 20vh;
+  padding-bottom: 3vh;
+}
+
+.hero-section h1 {
+  color: #fff;
+	font-family: 'Open Sans';
+	font-size: 94px;
+	font-weight: 800;
+	letter-spacing: -2px;
+	line-height: 84px;
+	margin-bottom: 32px;
+	text-transform: uppercase;
+}
+
+@media (max-width: 768px) {
+
+  .hero-section h1 {
+    font-size: 36px;
+    line-height: 34px;
+  }
+
+}
+
+.hero-section p {
+  color: #cccccc;
+	font-family: 'Crimson Text';
+	font-size: 20px;
+	font-weight: 500;
+	line-height: 48px;
+	margin-bottom: 48px;
+	max-width: 650px;
+}
+
+@media (max-width: 768px) {
+  .hero-section p {
+    line-height: 18px;
+  }
+}
+
+.hero-section a {
+  color: #fff;
+}
+
+.hero-section a:hover {
+
+}
+
+.breadcrumb {
+  background-color: #251B71;
+  color: #fff;
+}
+
+.breadcrumb a {
+  color: #fff !important;
+}
+
+.section-content {
+  padding: 5vh;
+}
+
+
+        .badge-primary {
+          background-color: #251B71 !important;
+        }
+
+        .card-link {
+          color: #251B71 !important;
+        }
+
+        .h7 {
+            font-size: 0.8rem;
+        }
+
+        .gedf-wrapper {
+            margin-top: 0.97rem;
+        }
+
+        .gedf-card {
+            margin-bottom: 1.77rem;
+        }
+
+        @media (max-width: 768px) {
+            .gedf-main {
+                padding-left: 0.02vw;
+                padding-right: 0.02vw;
+            }
+            .gedf-card {
+                margin-bottom: 2.77rem;
+            }
+
+}
+        @media (min-width: 992px) {
+            .gedf-main {
+                padding-left: 4rem;
+                padding-right: 4rem;
+            }
+            .gedf-card {
+                margin-bottom: 2.77rem;
+            }
+        }
+footer {
+  background-color: #000000;
+  color: #c3c3c3;
+}
+
+.footer-custom h2 {
+  margin-top: 8vh;
+}
+
+.footer-custom hr {
+  background-color: #c3c3c3;
+}
+
+.footer-credits p {
+  margin-top: 5vh;
+  padding: 5px 5px 5px 5px;
+  border-style: solid;
+  border-color: #fff;
+  border-width: 1px;
+}
